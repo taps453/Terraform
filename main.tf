@@ -4,7 +4,7 @@ provider "aws" {
 
 module "s3_module" {
   source = "./s3_module"
-  buck_name = "taps453collegedoc"
-  ami = "ami-0fc5d935ebf8bc3bc"
+  buck_name = " your bucket name"
+  ami = "XXXXXXXXXXX"  # write ami id here
   inst_type = "t2.micro"
 }
